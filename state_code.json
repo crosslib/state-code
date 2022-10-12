@@ -1,0 +1,76 @@
+{
+    "code": {
+        "st_init_code": {
+            "str_code": "init_code",
+            "int_code": 1665599900,
+            "str_code_description": "First register code.",
+            "http_status_code": 500
+        },
+        "st_page_not_found": {
+            "str_code": "page_not_found",
+            "int_code": 1665599901,
+            "str_code_description": "Page not found.",
+            "http_status_code": 404
+        },
+        "st_forbidden": {
+            "str_code": "forbidden",
+            "int_code": 1665599902,
+            "str_code_description": "Forbidden.",
+            "http_status_code": 403
+        },
+        "st_authentication": {
+            "str_code": "authentication",
+            "int_code": 1665599903,
+            "str_code_description": "Authentication.",
+            "http_status_code": 401
+        },
+        "st_invalid_username": {
+            "str_code": "invalid_username",
+            "int_code": 1665599904,
+            "str_code_description": "Invalid username.",
+            "http_status_code": 401
+        },
+        "st_invalid_password": {
+            "str_code": "invalid_password",
+            "int_code": 1665599905,
+            "str_code_description": "Invalid password.",
+            "http_status_code": 401
+        },
+        "st_invalid_credentials": {
+            "str_code": "invalid_credentials",
+            "int_code": 1665599906,
+            "str_code_description": "Invalid credentials.",
+            "http_status_code": 401
+        },
+        "st_authorization": {
+            "str_code": "authorization",
+            "int_code": 1665606307,
+            "str_code_description": "Forbidden.",
+            "http_status_code": 403
+        },
+        "st_invalid_income_value": {
+            "str_code": "invalid_income_value",
+            "int_code": 1665599907,
+            "str_code_description": "Invalid income value.",
+            "http_status_code": 400
+        },
+        "st_invalid_income_value_data_error": {
+            "str_code": "invalid_income_value_data_error",
+            "int_code": 1665599908,
+            "str_code_description": "Invalid income value which is depend of data in app.",
+            "http_status_code": 406
+        },
+        "st_invalid_income_value_validation_error": {
+            "str_code": "invalid_income_value_validation_error",
+            "int_code": 1665599909,
+            "str_code_description": "Invalid income value which is invalid. (invalid input). This means fontend app err or someone try to do somthing nasty.",
+            "http_status_code": 400
+        },
+        "st_created": {
+            "str_code": "created",
+            "int_code": 1665599101,
+            "str_code_description": "successfully created.",
+            "http_status_code": 201
+        }
+    }
+}

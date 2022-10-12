@@ -1,0 +1,21 @@
+{
+  "name": "@crosslib/state-code",
+  "version": "1.0.0",
+  "description": "State code of your app.",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crosslib/state-code.git"
+  },
+  "author": "Honza Pospisil <me@honzapospisil.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/crosslib/state-code/issues"
+  },
+  "homepage": "https://github.com/crosslib/state-code#readme",
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
+}
