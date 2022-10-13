@@ -48,12 +48,6 @@
             "str_code_description": "Forbidden.",
             "http_status_code": 403
         },
-        "st_invalid_income_value": {
-            "str_code": "invalid_income_value",
-            "int_code": 1665599907,
-            "str_code_description": "Invalid income value.",
-            "http_status_code": 400
-        },
         "st_invalid_income_value_data_error": {
             "str_code": "invalid_income_value_data_error",
             "int_code": 1665599908,
