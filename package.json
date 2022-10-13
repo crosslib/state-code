@@ -1,6 +1,6 @@
 {
   "name": "@crosslib/state-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "State code of your app.",
   "scripts": {
     "test": "jest"
