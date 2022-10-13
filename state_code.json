@@ -71,6 +71,12 @@
             "int_code": 1665599101,
             "str_code_description": "successfully created.",
             "http_status_code": 201
+        },
+        "st_not_found": {
+            "str_code": "not_found",
+            "int_code": 1665637951,
+            "str_code_description": "Not found.",
+            "http_status_code": 404
         }
     }
 }
