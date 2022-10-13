@@ -77,6 +77,12 @@
             "int_code": 1665637951,
             "str_code_description": "Not found.",
             "http_status_code": 404
+        },
+        "st_not_found_report": {
+            "str_code": "not_found_report",
+            "int_code": 1665637955,
+            "str_code_description": "Not found and report.",
+            "http_status_code": 404
         }
     }
 }
