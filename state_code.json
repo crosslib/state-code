@@ -57,7 +57,7 @@
         "st_invalid_income_value_validation_error": {
             "str_code": "invalid_income_value_validation_error",
             "int_code": 1665599909,
-            "str_code_description": "Invalid income value which is invalid. (invalid input). This means fontend app err or someone try to do somthing nasty.",
+            "str_code_description": "Invalid income value which is invalid. (invalid input). This means frontend app err or someone try to do somthing nasty.",
             "http_status_code": 400
         },
         "st_created": {
@@ -77,6 +77,59 @@
             "int_code": 1665637955,
             "str_code_description": "Not found and report.",
             "http_status_code": 404
+        },
+        "st_validation_error": {
+            "str_code": "validation_error",
+            "int_code": 1665637956,
+            "str_code_description": "Value is not valid.",
+            "http_status_code": 400
+        },
+        "st_type_error": {
+            "str_code": "type_error",
+            "int_code": 1665637957,
+            "str_code_description": "Invalid type.",
+            "http_status_code": 400
+        },
+        "st_out_of_range_error": {
+            "str_code": "out_of_range_error",
+            "int_code": 1665637958,
+            "str_code_description": "Aut of range.",
+            "http_status_code": 400
+        },
+        "st_to_small_number_value": {
+            "str_code": "to_small_number_value",
+            "str_msg_key": "value_%NAME%_must_by_grater_than_%MIN_VALUE%_VALUE_VALUE_%VALUE%_received.",
+            "int_code": 1665637959,
+            "str_code_description": "Value is to amall.",
+            "http_status_code": 400
+        },
+        "st_to_big_number_value": {
+            "str_code": "to_big_number_value",
+            "str_msg_key": "value_%NAME%_must_by__smaller_than_%MIN_VALUE%_VALUE_VALUE_%VALUE%_received.",
+            "int_code": 1665637960,
+            "str_code_description": "Value is too large.",
+            "http_status_code": 400
+        },
+        "st_enum_errro": {
+            "str_code": "enum_error",
+            "str_msg_key": "value_%VALUE%_must_be_one_of_these_%ENUM%",
+            "int_code": 1665637970,
+            "str_code_description": "Value is not in enum list..",
+            "http_status_code": 400
+        },
+        "st_unique_value_error": {
+            "str_code": "unique_value_error",
+            "str_msg_key": "value_%VALUE%_must be unique.",
+            "int_code": 1665637971,
+            "str_code_description": "Value is not unique.",
+            "http_status_code": 400
+        },
+        "st_time_out_error": {
+            "str_code": "timeout_error",
+            "str_msg_key": "Timeout_%VALUE%_exceeded_allowed_limit_%LIMIT_LIMIT%",
+            "int_code": 1665637921,
+            "str_code_description": "Value exceeded limit.",
+            "http_status_code": 400
         }
     }
 }
