@@ -3,7 +3,10 @@
   "version": "1.0.2",
   "description": "State code of your app.",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "gen:php_": "docker run -it -v $PWD:/usr/src/app -w /usr/src/app/tests/testapp/root jitesoft/php:8.1-cli generate_codes.php",
+    "gen:php": "node generate_php.js",
+    "gen:js": "node generate_js.js"
   },
   "repository": {
     "type": "git",

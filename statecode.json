@@ -130,6 +130,43 @@
             "int_code": 1665637921,
             "str_code_description": "Value exceeded limit.",
             "http_status_code": 400
+        },
+        "st_dir_not_exists": {
+            "str_code": "dir_not_exists",
+            "str_msg_key": "directory_%VALUE%_does_not_exits",
+            "int_code": 1665637922,
+            "str_code_description": "Directory does not exists."
+        },
+        "st_missing_store_value": {
+            "str_code": "missing_store_value",
+            "str_msg_key": "missing_store_value_%VALUE%_in_%STORE%",
+            "int_code": 1665637923,
+            "str_code_description": "Directory does not exists."
+        },
+        "st_record_not_found": {
+            "str_code": "record_not_found",
+            "int_code": 1665637924,
+            "http_status_code": 401
+        },
+        "st_password_does_not_match": {
+            "str_code": "password_does_not_match",
+            "int_code": 1665637925,
+            "http_status_code": 401
+        },
+        "st_csrf_token_expired": {
+            "str_code": "csrf_token_expired",
+            "int_code": 1665637926,
+            "http_status_code": 400
+        },
+        "st_missing_required_parameter": {
+            "str_code": "missing_required_parameter",
+            "int_code": 1665637927,
+            "http_status_code": 400
+        },
+        "st_not_implemented": {
+            "str_code": "not_implemented",
+            "int_code": 1665637859,
+            "http_status_code": 400
         }
     }
 }
